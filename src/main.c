@@ -2,6 +2,7 @@
 
 int main() {
     char words[] = "lvanov";
+    printf("%s\n", words);
     words[0] = 'n';
     words[1] = 'o';
     words[2] = 'v';
